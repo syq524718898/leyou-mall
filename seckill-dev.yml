@@ -19,7 +19,7 @@ spring:
       minimum-idle: 10
   rabbitmq:
     virtual-host: /leyou
-    username: /leyou
+    username: leyou
     password: leyou
     host: 192.168.130.128
     template:
@@ -65,4 +65,4 @@ hystrix:
 leyou:
   jwt:
     cookieName: LY_TOKEN
-    pubKeyPath: E:\\tmp\\rsa\\rsa.pub # 公钥地址
+    pubKeyPath: E:\\javaproject\\rsa\\id_rsa.pub # 公钥地址

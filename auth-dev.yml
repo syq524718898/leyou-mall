@@ -5,7 +5,7 @@ spring:
     name: auth-service
   rabbitmq:
     virtual-host: /leyou
-    username: /leyou
+    username: leyou
     password: leyou
     host: 192.168.130.128
 eureka:
@@ -21,9 +21,9 @@ eureka:
     lease-renewal-interval-in-seconds: 5 #每隔5秒发一次心跳
 leyou:
   jwt:
-    secret: leyou@Login(Auth}*^31)&heiMa% # 登录校验的密钥
-    pubKeyPath: E:\\tmp\\rsa\\rsa.pub # 公钥地址
-    priKeyPath: E:\\tmp\\rsa\\rsa.pri # 私钥地址
+    secret: ly@Login(Auth}*^31)&yun6%f3q2 # 登录校验的密钥
+    pubKeyPath: E:\\javaproject\\rsa\\id_rsa.pub # 公钥地址
+    priKeyPath: E:\\javaproject\\rsa\\id_rsa.pri # 私钥地址
     expire: 30 # 过期时间,单位分钟
     cookieName: LY_TOKEN
     cookieMaxAge: 30

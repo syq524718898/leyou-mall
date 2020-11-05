@@ -34,7 +34,8 @@ ip:
 leyou:
   jwt:
     cookieName: LY_TOKEN
-    pubKeyPath: E:\\tmp\\rsa\\rsa.pub # 公钥地址
+    pubKeyPath: E:\\javaproject\\rsa\\id_rsa.pub # 公钥地址
+
   filter:
     allowPaths:
        /api/auth
